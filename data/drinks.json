@@ -1,0 +1,202 @@
+{
+  "drinks": [
+    {
+      "id": "negroni",
+      "name": "Negroni",
+      "tagline": "The aperitivo of all aperitivos",
+      "description": "A perfect trinity of gin, sweet vermouth, and Campari — the Negroni is equal parts bitter revelation and sweet reward. Master this, and you understand the soul of Italian aperitivo culture.",
+      "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Rocks glass",
+      "garnish": "Orange peel, expressed and placed on rim",
+      "tastingNotes": "Bittersweet orange, herbal botanicals, light floral finish",
+      "featured": true,
+      "ingredients": [
+        "1 oz London Dry Gin",
+        "1 oz Sweet Vermouth",
+        "1 oz Campari"
+      ],
+      "recipe": [
+        "Combine all three ingredients in a mixing glass filled with ice.",
+        "Stir for 25–30 seconds until well-chilled and slightly diluted.",
+        "Strain into a rocks glass over a single large ice cube.",
+        "Hold an orange peel over the glass and twist firmly to express the oils onto the surface.",
+        "Run the peel around the rim, then place it over the ice as garnish."
+      ]
+    },
+    {
+      "id": "martini",
+      "name": "Dry Martini",
+      "tagline": "The drink of drinks",
+      "description": "Chilled to near freezing, the Dry Martini is an exercise in restraint — gin-forward, bone dry, impeccably stirred. The ratio is your signature. This is ours.",
+      "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Chilled coupe or martini glass",
+      "garnish": "Lemon twist or a single castelvetrano olive",
+      "tastingNotes": "Crisp, botanical, dry vermouth whisper, long clean finish",
+      "featured": true,
+      "ingredients": [
+        "2.5 oz London Dry Gin (or premium vodka)",
+        "0.5 oz Dry Vermouth",
+        "1 dash orange bitters (optional)"
+      ],
+      "recipe": [
+        "Place your coupe or martini glass in the freezer at least 20 minutes before serving.",
+        "Add gin (or vodka), dry vermouth, and bitters to a mixing glass filled with fresh ice.",
+        "Stir for 40 seconds — this is a stirred drink, never shaken.",
+        "Strain into the chilled glass.",
+        "Express a lemon twist over the surface and add as garnish, or drop in a single olive."
+      ]
+    },
+    {
+      "id": "old-fashioned",
+      "name": "Old Fashioned",
+      "tagline": "Whiskey, sugar, bitters — nothing more",
+      "description": "The original cocktail. A measured spoonful of sugar, a few dashes of bitters, and the finest bourbon you own. There is nothing to hide behind here — only the whiskey.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Rocks glass",
+      "garnish": "Expressed orange peel and a Luxardo cherry",
+      "tastingNotes": "Rich vanilla oak, caramel sweetness, subtle citrus, warming spice",
+      "featured": true,
+      "ingredients": [
+        "2 oz Bourbon or Rye Whiskey",
+        "1 tsp Demerara Syrup (or 1 sugar cube)",
+        "2 dashes Angostura Bitters",
+        "1 dash Orange Bitters"
+      ],
+      "recipe": [
+        "Add the syrup (or sugar cube) directly into your rocks glass.",
+        "Dash both bitters over the sugar.",
+        "If using a sugar cube, add a small splash of water and muddle until fully dissolved.",
+        "Add the whiskey and stir briefly to combine.",
+        "Add a large ice cube and continue stirring for 15 seconds to chill and dilute.",
+        "Express a wide orange peel over the glass and add a Luxardo cherry as garnish."
+      ]
+    },
+    {
+      "id": "boulevardier",
+      "name": "Boulevardier",
+      "tagline": "The Negroni's bolder American cousin",
+      "description": "Swap gin for bourbon and the Negroni becomes something altogether different — deeper, warmer, and unmistakably autumnal. A drink for slow evenings and long conversations.",
+      "image": "https://images.unsplash.com/photo-1574631869744-23cc1789c0d5?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Coupe or rocks glass",
+      "garnish": "Expressed orange peel",
+      "tastingNotes": "Caramel, bitter orange, dark cherry, warming whiskey spice",
+      "featured": false,
+      "ingredients": [
+        "1.5 oz Bourbon",
+        "1 oz Sweet Vermouth",
+        "1 oz Campari"
+      ],
+      "recipe": [
+        "Combine all ingredients in a mixing glass with plenty of ice.",
+        "Stir for 30 seconds until properly chilled and diluted.",
+        "Strain into a chilled coupe or over a large ice cube in a rocks glass.",
+        "Express an orange peel over the surface and add as garnish."
+      ]
+    },
+    {
+      "id": "margarita",
+      "name": "Margarita",
+      "tagline": "Tequila at its most joyful",
+      "description": "Made properly — with good blanco tequila, freshly squeezed lime, and real triple sec — the Margarita is transcendent. The difference between a great one and a mediocre one is entirely the ingredients.",
+      "image": "https://images.unsplash.com/photo-1559628129-67cf63b72248?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Coupe or rocks glass",
+      "garnish": "Salted rim, lime wheel",
+      "tastingNotes": "Bright citrus, agave sweetness, gentle saline, clean finish",
+      "featured": false,
+      "ingredients": [
+        "2 oz Blanco Tequila (100% agave)",
+        "0.75 oz Cointreau or Triple Sec",
+        "0.75 oz Fresh Lime Juice",
+        "0.25 oz Agave Syrup (optional, to taste)"
+      ],
+      "recipe": [
+        "Run a lime wedge around the outer rim of your glass and dip in coarse sea salt.",
+        "Combine tequila, Cointreau, and fresh lime juice in a shaker with ice.",
+        "Shake vigorously for 12–15 seconds.",
+        "Strain into the prepared glass — over fresh ice for rocks style, neat for coupe.",
+        "Garnish with a thin lime wheel on the rim."
+      ]
+    },
+    {
+      "id": "daiquiri",
+      "name": "Daiquiri",
+      "tagline": "Rum's finest moment",
+      "description": "Three ingredients, infinite nuance. A well-made Daiquiri is one of the most elegant drinks a home bartender can master — and one of the hardest to make badly once you know the ratio.",
+      "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Chilled coupe",
+      "garnish": "Lime wheel or expressed lime twist",
+      "tastingNotes": "Tart fresh lime, light cane sweetness, delicate rum florals, crisp and clean",
+      "featured": false,
+      "ingredients": [
+        "2 oz White Rum",
+        "0.75 oz Fresh Lime Juice",
+        "0.75 oz Simple Syrup (or 0.5 oz for a drier pour)"
+      ],
+      "recipe": [
+        "Place a coupe glass in the freezer at least 15 minutes before serving.",
+        "Combine rum, fresh lime juice, and simple syrup in a shaker.",
+        "Add ice and shake hard for 12–14 seconds.",
+        "Double-strain through a fine mesh strainer into the chilled coupe to remove ice chips.",
+        "Garnish with a thin lime wheel floated on the surface."
+      ]
+    },
+    {
+      "id": "espresso-martini",
+      "name": "Espresso Martini",
+      "tagline": "When the night needs a second wind",
+      "description": "Bold espresso, smooth vodka, and a touch of coffee liqueur — the Espresso Martini is unapologetically indulgent. The frothy crown, when achieved, is its own reward.",
+      "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=800&q=80",
+      "category": "Contemporary",
+      "glassware": "Chilled coupe or martini glass",
+      "garnish": "Three espresso beans, floated in the center of the foam",
+      "tastingNotes": "Intense roasted coffee, vanilla, light bitterness, creamy persistent foam",
+      "featured": false,
+      "ingredients": [
+        "1.5 oz Vodka",
+        "0.75 oz Kahlúa or good coffee liqueur",
+        "1 oz Fresh Espresso, cooled slightly",
+        "0.25 oz Simple Syrup (optional)"
+      ],
+      "recipe": [
+        "Pull a fresh espresso shot and let it cool for 60–90 seconds — hot espresso kills the foam.",
+        "Combine vodka, coffee liqueur, espresso, and syrup in a shaker with ice.",
+        "Shake very vigorously for 15 seconds — the hard shake is what creates the foam.",
+        "Double-strain into a chilled coupe glass.",
+        "Float exactly three espresso beans in the center of the foam."
+      ]
+    },
+    {
+      "id": "casa-spritz",
+      "name": "Casa Spritz",
+      "tagline": "Our signature aperitivo",
+      "description": "Our take on the beloved spritz — slightly more complex, a touch more bitter, with a long citrus and herbal finish. Best served at golden hour with nowhere to be.",
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80",
+      "category": "House Original",
+      "glassware": "Large wine glass",
+      "garnish": "Orange half-wheel and a fresh rosemary sprig",
+      "tastingNotes": "Effervescent, bitter orange, elderflower, herbal rosemary, light stone fruit",
+      "featured": false,
+      "ingredients": [
+        "3 oz Prosecco",
+        "1.5 oz Aperol",
+        "0.5 oz Elderflower Liqueur",
+        "1 oz Sparkling Water",
+        "Fresh rosemary sprig"
+      ],
+      "recipe": [
+        "Fill a large wine glass generously with fresh ice.",
+        "Add Aperol and elderflower liqueur directly over the ice.",
+        "Pour Prosecco slowly down the side of the glass to preserve the bubbles.",
+        "Top with a splash of sparkling water.",
+        "Gently stir once with a long spoon to barely combine.",
+        "Garnish with a half-wheel of orange and a sprig of fresh rosemary."
+      ]
+    }
+  ]
+}
