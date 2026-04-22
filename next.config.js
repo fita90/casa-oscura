@@ -10,6 +10,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'barossadistilling.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.foodandwine.com',
+      },
     ],
   },
 }
