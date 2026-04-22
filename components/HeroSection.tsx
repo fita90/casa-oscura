@@ -36,7 +36,7 @@ export default function HeroSection() {
         {/* Eyebrow */}
         <div className="flex items-center justify-center gap-4 mb-10">
           <div className="h-px w-14 bg-bar-gold/50" />
-          <span className="text-bar-gold/80 text-xs tracking-[0.4em] uppercase">Est. 2024</span>
+          <span className="text-bar-gold/80 text-xs tracking-[0.4em] uppercase">Est. 2019</span>
           <div className="h-px w-14 bg-bar-gold/50" />
         </div>
 
@@ -48,8 +48,11 @@ export default function HeroSection() {
         </h1>
 
         {/* Tagline */}
-        <p className="text-bar-cream/50 text-xs md:text-sm tracking-[0.35em] uppercase mt-6 mb-14">
-          Where the night finds its flavor
+        <p className="text-bar-cream/70 text-xs md:text-sm tracking-[0.35em] uppercase mt-6 mb-2">
+          A Small Bar. High Standards.
+        </p>
+        <p className="text-bar-muted text-[10px] tracking-[0.3em] uppercase mb-14">
+          A Club Nando Company
         </p>
 
         {/* CTA */}

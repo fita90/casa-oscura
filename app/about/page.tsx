@@ -85,22 +85,40 @@ export default function AboutPage() {
                 <span className="text-bar-gold text-xs tracking-[0.35em] uppercase">Inspiration</span>
               </div>
               <h2 className="font-serif text-3xl md:text-4xl text-bar-cream mb-6 leading-tight">
-                The Italian Aperitivo Tradition
+                The Grand Tour
               </h2>
-              <div className="space-y-4 text-bar-muted leading-relaxed">
+              <div className="space-y-4 text-bar-muted leading-relaxed text-sm">
                 <p>
-                  Bar Tovar's style draws heavily from the Italian aperitivo tradition — the golden
-                  hour ritual of bitter, beautiful drinks served before the meal, designed to slow the
-                  evening down.
+                  It started at Angel's Share in New York, in 2014. A basement bar in the East Village,
+                  no sign on the door, Japanese bartenders working in near silence — and a drink that
+                  arrived so precisely made it was difficult to explain to anyone who wasn't there. That
+                  was the moment the standard was set.
                 </p>
                 <p>
-                  We admire the restraint of that tradition: a great drink needs three or four
-                  ingredients at most. Complexity should come from quality, not quantity.
+                  Everything after was an education. A drink at El Barón in Cartagena that reframed what
+                  a Negroni could be by adding cold brew and rum. An evening in Lima where pisco stopped
+                  being a novelty and started being a discipline. La Factoría in Old San Juan, where
+                  drinks are treated with the same seriousness as their live salsa shows. Mexico City,
+                  where bartenders are doing things with indigenous spirits that the rest of the world
+                  hasn't caught up to yet. Bogotá, which has quietly built one of the most adventurous
+                  bar scenes in the hemisphere. Madrid, where the gin and tonic became an art form
+                  through sheer commitment to the glass, the ice, and the garnish. Berlin, where the
+                  avant-garde is treated less like a statement and more like a standing practice. London,
+                  which never stopped being serious about the classics while somehow staying curious. And
+                  Ozone in Hong Kong — fifty-eight floors up, looking out over the South China Sea — a
+                  reminder that ambition and precision are not mutually exclusive.
                 </p>
                 <p>
-                  Beyond Italy, we look to the golden age of American cocktail culture and the
-                  bartenders at Death & Co., Milk & Honey, and the Pegu Club — who proved that the
-                  classics were worth protecting.
+                  The Aviary in Chicago. Death & Co. and Milk & Honey before it was gone. Places that
+                  confirmed what Angel's Share first proved: technique is not pretension, and a
+                  well-made drink is worth the effort on both sides of the bar.
+                </p>
+                <p>
+                  Bar Tovar draws from all of it. The restraint of the Italian aperitivo. The depth of
+                  a properly aged South American spirit. The discipline of a three-ingredient classic
+                  and the curiosity of someone willing to take it apart and rebuild it. The goal is never
+                  novelty for its own sake and never tradition for the sake of comfort. Just the best
+                  version of the drink in front of you.
                 </p>
               </div>
             </div>
@@ -110,16 +128,16 @@ export default function AboutPage() {
               <div className="aspect-square overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1574631869744-23cc1789c0d5?auto=format&fit=crop&w=700&q=80"
-                  alt="Cocktail detail"
+                  src="https://images.unsplash.com/photo-1752141930096-ac8292d6a15a?auto=format&fit=crop&w=700&q=80"
+                  alt="House Negroni"
                   className="w-full h-full object-cover"
                 />
               </div>
               <div className="aspect-video overflow-hidden ml-8">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=700&q=80"
-                  alt="Bar detail"
+                  src="https://images.unsplash.com/photo-1582056509381-33e11b85733f?auto=format&fit=crop&w=700&q=80"
+                  alt="Manhattan cocktail"
                   className="w-full h-full object-cover"
                 />
               </div>

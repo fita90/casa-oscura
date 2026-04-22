@@ -1,9 +1,8 @@
 import Link from 'next/link'
 
 const socialLinks = [
-  { label: 'Instagram', href: '#' },
-  { label: 'Pinterest', href: '#' },
-  { label: 'TikTok', href: '#' },
+  { label: 'Instagram', href: 'https://www.instagram.com/_ftovar/' },
+  { label: 'Substack', href: 'https://substack.com/@ftovar' },
 ]
 
 const navLinks = [
@@ -58,10 +57,10 @@ export default function Footer() {
 
         <div className="border-t border-bar-gold/10 mt-12 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-bar-muted text-xs tracking-wider">
-            © {new Date().getFullYear()} Bar Tovar. All rights reserved.
+            © {new Date().getFullYear()} Bar Tovar, a Club Nando Company. All rights reserved.
           </p>
           <p className="text-bar-muted text-xs tracking-wider">
-            Drink responsibly. Please enjoy in moderation.
+            Drink somewhat responsibly. Please enjoy the moment.
           </p>
         </div>
       </div>
