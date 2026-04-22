@@ -29,7 +29,7 @@
       "tagline": "A pale, smoky deviation from the classic",
       "description": "Mezcal steps in for gin, Luxardo Bitter Bianco replaces Campari, and Dolin Dry stands in for sweet vermouth. The result is pale, aromatic, and faintly smoky.",
       "image": "https://images.unsplash.com/photo-1520880205996-43e8ed079873?auto=format&fit=crop&w=800&q=80",
-      "category": "Variation",
+      "category": "Signature",
       "glassware": "Rocks glass",
       "garnish": "Expressed lemon peel",
       "tastingNotes": "Smoky mezcal, bitter white citrus, dry herbal vermouth, mineral finish",
@@ -172,7 +172,7 @@
       "tagline": "Coffee, citrus, and a cloud of smoke",
       "description": "Licor 43 and two shots of fresh espresso, shaken cold and strained over ice. Orange and cardamom bitters add depth. Optionally smoked with allspice, cinnamon, and star anise for a theatrical finish.",
       "image": "https://images.unsplash.com/photo-1678261738794-163c056a1d6f?auto=format&fit=crop&w=800&q=80",
-      "category": "House Original",
+      "category": "Signature",
       "glassware": "Rocks glass over fresh ice",
       "garnish": "Optional smoke (allspice, cinnamon, star anise)",
       "tastingNotes": "Vanilla, fresh espresso, citrus bitters, warm baking spice",
@@ -316,12 +316,38 @@
       ]
     },
     {
+      "id": "peated-scotch-sour",
+      "name": "Peated Scotch Sour",
+      "tagline": "Smoke, citrus, and a cloud of silk",
+      "description": "Ardbeg Wee Beastie brings peat and intensity; fresh lemon and simple syrup bring balance; egg white brings structure. Finished with Angostura bitters on the foam. A serious drink.",
+      "image": "https://images.unsplash.com/photo-1655546837806-76a6dd54ee2b?auto=format&fit=crop&w=800&q=80",
+      "category": "Signature",
+      "glassware": "Chilled coupe",
+      "garnish": "Angostura bitters on the foam",
+      "tastingNotes": "Peated smoke, bright lemon, light sweetness, silky egg white, long finish",
+      "featured": false,
+      "ingredients": [
+        "2 oz Peated Scotch (Ardbeg Wee Beastie)",
+        "¾ oz Fresh Lemon Juice",
+        "½ oz Simple Syrup",
+        "½ oz Egg White",
+        "Angostura Bitters (for garnish)"
+      ],
+      "recipe": [
+        "Combine Scotch, lemon juice, simple syrup, and egg white in a shaker without ice.",
+        "Dry shake vigorously for 15 seconds to build foam.",
+        "Add ice and shake again until very cold.",
+        "Double strain through a fine mesh strainer into a chilled coupe.",
+        "Dot the foam with Angostura bitters and drag a toothpick through to create a pattern."
+      ]
+    },
+    {
       "id": "paper-plane",
       "name": "Paper Plane",
       "tagline": "Equal parts everything",
       "description": "A modern classic from Sam Ross at Milk & Honey. Bourbon, Amaro Nonino, Aperol, and fresh lemon juice in precisely equal measure. Balanced, bittersweet, and impossible to put down.",
       "image": "https://images.unsplash.com/photo-1585975776023-29a0dbc51407?auto=format&fit=crop&w=800&q=80",
-      "category": "Contemporary",
+      "category": "Classic",
       "glassware": "Chilled coupe",
       "garnish": "None",
       "tastingNotes": "Bitter orange Aperol, amaro herbs, bourbon warmth, bright citrus",

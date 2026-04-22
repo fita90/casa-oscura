@@ -36,7 +36,7 @@ export default function MenuPage() {
           The Menu
         </h1>
         <p className="text-bar-muted text-sm max-w-sm mx-auto leading-relaxed mt-4">
-          Fourteen drinks. Classics, variations, and one house original. Every recipe earned through repetition.
+          Fifteen drinks. Classics, signatures, and one original. Every recipe earned through repetition.
         </p>
       </div>
 
