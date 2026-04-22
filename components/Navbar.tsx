@@ -42,7 +42,7 @@ export default function Navbar() {
             href="/"
             className="font-serif text-lg lg:text-xl text-bar-cream tracking-[0.2em] uppercase hover:text-bar-gold transition-colors duration-300"
           >
-            Casa Oscura
+            Bar Tovar
           </Link>
 
           {/* Desktop links */}

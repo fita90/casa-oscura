@@ -29,14 +29,14 @@ export default function MenuPage() {
       <div className="bg-bar-dark pt-32 pb-16 px-6 text-center">
         <div className="flex items-center justify-center gap-4 mb-6">
           <div className="h-px w-12 bg-bar-gold/40" />
-          <span className="text-bar-gold text-xs tracking-[0.35em] uppercase">Casa Oscura</span>
+          <span className="text-bar-gold text-xs tracking-[0.35em] uppercase">Bar Tovar</span>
           <div className="h-px w-12 bg-bar-gold/40" />
         </div>
         <h1 className="font-serif text-5xl md:text-6xl lg:text-7xl text-bar-cream mb-4">
           The Menu
         </h1>
         <p className="text-bar-muted text-sm max-w-sm mx-auto leading-relaxed mt-4">
-          Eight drinks. All classics, one original. Every recipe earned through repetition.
+          Fourteen drinks. Classics, variations, and one house original. Every recipe earned through repetition.
         </p>
       </div>
 

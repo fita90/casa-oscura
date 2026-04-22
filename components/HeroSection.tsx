@@ -42,9 +42,9 @@ export default function HeroSection() {
 
         {/* Headline */}
         <h1 className="font-serif text-[clamp(4rem,12vw,9rem)] text-bar-cream leading-[0.9] tracking-tight mb-6">
-          Casa
+          Bar
           <br />
-          Oscura
+          Tovar
         </h1>
 
         {/* Tagline */}

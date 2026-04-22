@@ -1,201 +1,342 @@
 {
   "drinks": [
     {
-      "id": "negroni",
-      "name": "Negroni",
-      "tagline": "The aperitivo of all aperitivos",
-      "description": "A perfect trinity of gin, sweet vermouth, and Campari — the Negroni is equal parts bitter revelation and sweet reward. Master this, and you understand the soul of Italian aperitivo culture.",
+      "id": "house-negroni",
+      "name": "House Negroni",
+      "tagline": "Equal parts. No compromises.",
+      "description": "The house standard. Ford's gin, Cinzano Rosso, and Campari in perfect balance — stirred until cold, strained over a single cube, finished with a lemon peel.",
       "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
       "glassware": "Rocks glass",
-      "garnish": "Orange peel, expressed and placed on rim",
-      "tastingNotes": "Bittersweet orange, herbal botanicals, light floral finish",
+      "garnish": "Lemon peel, expressed",
+      "tastingNotes": "Bittersweet orange, botanical gin, bright lemon oil finish",
       "featured": true,
       "ingredients": [
-        "1 oz London Dry Gin",
-        "1 oz Sweet Vermouth",
+        "1 oz Ford's Gin",
+        "1 oz Cinzano Rosso",
         "1 oz Campari"
       ],
       "recipe": [
-        "Combine all three ingredients in a mixing glass filled with ice.",
-        "Stir for 25–30 seconds until well-chilled and slightly diluted.",
-        "Strain into a rocks glass over a single large ice cube.",
-        "Hold an orange peel over the glass and twist firmly to express the oils onto the surface.",
-        "Run the peel around the rim, then place it over the ice as garnish."
+        "Combine all ingredients in a mixing glass filled with ice.",
+        "Stir over ice until properly chilled and diluted — about 30 seconds.",
+        "Strain over a single large ice cube in a rocks glass.",
+        "Express a lemon peel over the glass and use as garnish."
       ]
     },
     {
-      "id": "martini",
-      "name": "Dry Martini",
-      "tagline": "The drink of drinks",
-      "description": "Chilled to near freezing, the Dry Martini is an exercise in restraint — gin-forward, bone dry, impeccably stirred. The ratio is your signature. This is ours.",
+      "id": "white-mezcal-negroni",
+      "name": "White Mezcal Negroni",
+      "tagline": "A pale, smoky deviation from the classic",
+      "description": "Mezcal steps in for gin, Luxardo Bitter Bianco replaces Campari, and Dolin Dry stands in for sweet vermouth. The result is pale, aromatic, and faintly smoky.",
+      "image": "https://images.unsplash.com/photo-1609951651556-5efce1c9f76a?auto=format&fit=crop&w=800&q=80",
+      "category": "Variation",
+      "glassware": "Rocks glass",
+      "garnish": "Expressed lemon peel",
+      "tastingNotes": "Smoky mezcal, bitter white citrus, dry herbal vermouth, mineral finish",
+      "featured": false,
+      "ingredients": [
+        "1 oz Mezcal (400 Conejos or Alipús; Espadín or Tobalá)",
+        "1 oz Luxardo Bitter Bianco",
+        "1 oz Dolin Dry Vermouth"
+      ],
+      "recipe": [
+        "Combine all ingredients in a mixing glass with ice.",
+        "Stir until well-chilled.",
+        "Strain over a large cube in a rocks glass.",
+        "Express a lemon peel over the surface and add as garnish."
+      ]
+    },
+    {
+      "id": "vesper-martini",
+      "name": "Vesper Martini",
+      "tagline": "Shaken, not stirred — just this once",
+      "description": "Three parts gin, one part vodka, half a part Lillet Blanc. Shaken hard and strained cold. The drink that James Bond ordered once, and cocktail bars have been arguing about ever since.",
       "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
-      "glassware": "Chilled coupe or martini glass",
-      "garnish": "Lemon twist or a single castelvetrano olive",
-      "tastingNotes": "Crisp, botanical, dry vermouth whisper, long clean finish",
+      "glassware": "Chilled coupe",
+      "garnish": "Lemon peel",
+      "tastingNotes": "Botanical gin, clean vodka, faint orange floral from Lillet, bone dry",
       "featured": true,
       "ingredients": [
-        "2.5 oz London Dry Gin (or premium vodka)",
-        "0.5 oz Dry Vermouth",
-        "1 dash orange bitters (optional)"
+        "3 oz London Dry Gin or Old Tom Gin (Beefeater or Ford's)",
+        "1 oz Vodka (Reyka)",
+        "1/2 oz Lillet Blanc"
       ],
       "recipe": [
-        "Place your coupe or martini glass in the freezer at least 20 minutes before serving.",
-        "Add gin (or vodka), dry vermouth, and bitters to a mixing glass filled with fresh ice.",
-        "Stir for 40 seconds — this is a stirred drink, never shaken.",
-        "Strain into the chilled glass.",
-        "Express a lemon twist over the surface and add as garnish, or drop in a single olive."
+        "Chill a coupe glass in the freezer for at least 15 minutes.",
+        "Combine gin, vodka, and Lillet Blanc in a shaker with ice.",
+        "Shake hard until very cold — about 12 seconds.",
+        "Fine strain through a mesh strainer into the chilled coupe.",
+        "Express a lemon peel over the surface and add as garnish."
       ]
     },
     {
-      "id": "old-fashioned",
-      "name": "Old Fashioned",
-      "tagline": "Whiskey, sugar, bitters — nothing more",
-      "description": "The original cocktail. A measured spoonful of sugar, a few dashes of bitters, and the finest bourbon you own. There is nothing to hide behind here — only the whiskey.",
-      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=800&q=80",
+      "id": "dirty-martini",
+      "name": "House Dirty Martini",
+      "tagline": "The cocktail that rewards conviction",
+      "description": "A full ounce of olive brine cuts through the gin and vermouth, creating something briny, botanical, and unapologetically savory. Stirred. Garnished with olives and lemon peel.",
+      "image": "https://images.unsplash.com/photo-1574634534894-89d7576c8259?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
-      "glassware": "Rocks glass",
-      "garnish": "Expressed orange peel and a Luxardo cherry",
-      "tastingNotes": "Rich vanilla oak, caramel sweetness, subtle citrus, warming spice",
-      "featured": true,
+      "glassware": "Chilled coupe or martini glass",
+      "garnish": "Olives and lemon peel",
+      "tastingNotes": "Briny, botanical gin, dry vermouth, clean saline finish",
+      "featured": false,
       "ingredients": [
-        "2 oz Bourbon or Rye Whiskey",
-        "1 tsp Demerara Syrup (or 1 sugar cube)",
-        "2 dashes Angostura Bitters",
-        "1 dash Orange Bitters"
+        "2½ oz London Dry Gin or Old Tom Gin (Beefeater or Ford's)",
+        "½ oz Dolin Dry Vermouth",
+        "1 oz Olive Brine"
       ],
       "recipe": [
-        "Add the syrup (or sugar cube) directly into your rocks glass.",
-        "Dash both bitters over the sugar.",
-        "If using a sugar cube, add a small splash of water and muddle until fully dissolved.",
-        "Add the whiskey and stir briefly to combine.",
-        "Add a large ice cube and continue stirring for 15 seconds to chill and dilute.",
-        "Express a wide orange peel over the glass and add a Luxardo cherry as garnish."
+        "Chill a coupe or martini glass in the freezer.",
+        "Combine gin, dry vermouth, and olive brine in a mixing glass with ice.",
+        "Stir until well-chilled — this is a stirred drink.",
+        "Strain into the chilled glass.",
+        "Garnish with olives and a lemon peel."
+      ]
+    },
+    {
+      "id": "perfect-manhattan",
+      "name": "Perfect Manhattan",
+      "tagline": "Rye and two vermouths, balanced precisely",
+      "description": "Death & Co.'s version uses both sweet and dry vermouth in equal measure, building a Manhattan that is more complex and less cloying than the standard. A serious drink for serious company.",
+      "image": "https://images.unsplash.com/photo-1575650772416-3d8f5c75bef8?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Chilled coupe",
+      "garnish": "Cherry",
+      "tastingNotes": "Rye spice, dark cherry, balanced sweet and dry vermouth, Angostura warmth",
+      "featured": true,
+      "ingredients": [
+        "2 oz Rye Whiskey",
+        "½ oz Sweet Vermouth",
+        "½ oz Dry Vermouth",
+        "2 dashes Angostura Bitters"
+      ],
+      "recipe": [
+        "Combine rye, both vermouths, and bitters in a mixing glass with ice.",
+        "Stir for 30 seconds until well-chilled.",
+        "Strain into a chilled coupe.",
+        "Garnish with a cherry."
       ]
     },
     {
       "id": "boulevardier",
       "name": "Boulevardier",
       "tagline": "The Negroni's bolder American cousin",
-      "description": "Swap gin for bourbon and the Negroni becomes something altogether different — deeper, warmer, and unmistakably autumnal. A drink for slow evenings and long conversations.",
+      "description": "Rittenhouse Rye steps in for gin. The result is warmer, spicier, and unmistakably autumnal. Stirred and served over a single large cube.",
       "image": "https://images.unsplash.com/photo-1574631869744-23cc1789c0d5?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
-      "glassware": "Coupe or rocks glass",
-      "garnish": "Expressed orange peel",
-      "tastingNotes": "Caramel, bitter orange, dark cherry, warming whiskey spice",
+      "glassware": "Rocks glass",
+      "garnish": "Orange peel, expressed",
+      "tastingNotes": "Rye spice, bitter orange, dark cherry, caramel warmth",
       "featured": false,
       "ingredients": [
-        "1.5 oz Bourbon",
+        "1 oz Rittenhouse Rye",
         "1 oz Sweet Vermouth",
         "1 oz Campari"
       ],
       "recipe": [
-        "Combine all ingredients in a mixing glass with plenty of ice.",
-        "Stir for 30 seconds until properly chilled and diluted.",
-        "Strain into a chilled coupe or over a large ice cube in a rocks glass.",
-        "Express an orange peel over the surface and add as garnish."
+        "Combine all ingredients in a mixing glass with ice.",
+        "Stir over ice until properly chilled.",
+        "Strain over a large cube in a rocks glass.",
+        "Express an orange peel over the glass and add as garnish."
       ]
     },
     {
-      "id": "margarita",
-      "name": "Margarita",
-      "tagline": "Tequila at its most joyful",
-      "description": "Made properly — with good blanco tequila, freshly squeezed lime, and real triple sec — the Margarita is transcendent. The difference between a great one and a mediocre one is entirely the ingredients.",
+      "id": "sazerac",
+      "name": "Sazerac",
+      "tagline": "New Orleans in a glass",
+      "description": "Death & Co.'s version of a recipe that has not needed improvement since the 1800s. Rye, demerara, Peychaud's bitters, and an absinthe-rinsed glass. Served neat — no ice.",
+      "image": "https://images.unsplash.com/photo-1551538827-9c037cb4f32a?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Rocks glass (absinthe-rinsed), no ice",
+      "garnish": "Lemon peel",
+      "tastingNotes": "Rye spice, anise, cherry-clove bitters, faint absinthe ghost",
+      "featured": false,
+      "ingredients": [
+        "2 oz Rye Whiskey",
+        "1 tsp Demerara Syrup (2:1)",
+        "2 dashes Peychaud's Bitters",
+        "Absinthe (for rinsing the glass)"
+      ],
+      "recipe": [
+        "Chill a rocks glass, then pour a small amount of absinthe into it, swirl to coat, and discard the excess.",
+        "In a mixing glass, combine rye, demerara syrup, and Peychaud's bitters with ice.",
+        "Stir until well-chilled.",
+        "Strain into the absinthe-rinsed glass — no ice.",
+        "Express a lemon peel over the glass but do not drop it in; discard or rest on the rim."
+      ]
+    },
+    {
+      "id": "house-carajillo",
+      "name": "House Carajillo",
+      "tagline": "Coffee, citrus, and a cloud of smoke",
+      "description": "Licor 43 and two shots of fresh espresso, shaken cold and strained over ice. Orange and cardamom bitters add depth. Optionally smoked with allspice, cinnamon, and star anise for a theatrical finish.",
+      "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=800&q=80",
+      "category": "House Original",
+      "glassware": "Rocks glass over fresh ice",
+      "garnish": "Optional smoke (allspice, cinnamon, star anise)",
+      "tastingNotes": "Vanilla, fresh espresso, citrus bitters, warm baking spice",
+      "featured": false,
+      "ingredients": [
+        "2 oz Licor 43",
+        "2 shots fresh Espresso",
+        "2 dashes Orange Bitters",
+        "2 dashes Cardamom Bitters"
+      ],
+      "recipe": [
+        "Pull two espresso shots and allow to cool slightly.",
+        "Combine Licor 43, espresso, and both bitters in a shaker with ice.",
+        "Shake hard for 12 seconds.",
+        "Strain over fresh ice in a rocks glass.",
+        "Optional: before adding the drink, smoke the glass with allspice, cinnamon, and star anise using a smoking gun or torch."
+      ]
+    },
+    {
+      "id": "bees-knees",
+      "name": "Bee's Knees",
+      "tagline": "Simple, golden, and quietly perfect",
+      "description": "A Prohibition-era classic. Honey syrup and fresh lemon juice bring the gin into balance in a cocktail that is effortlessly elegant and dangerously easy to drink.",
       "image": "https://images.unsplash.com/photo-1559628129-67cf63b72248?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
-      "glassware": "Coupe or rocks glass",
-      "garnish": "Salted rim, lime wheel",
-      "tastingNotes": "Bright citrus, agave sweetness, gentle saline, clean finish",
+      "glassware": "Chilled coupe",
+      "garnish": "Lemon twist (optional)",
+      "tastingNotes": "Floral honey, bright lemon, botanical gin, clean dry finish",
       "featured": false,
       "ingredients": [
-        "2 oz Blanco Tequila (100% agave)",
-        "0.75 oz Cointreau or Triple Sec",
-        "0.75 oz Fresh Lime Juice",
-        "0.25 oz Agave Syrup (optional, to taste)"
+        "2 oz Gin",
+        "¾ oz Fresh Lemon Juice",
+        "¾ oz Honey Syrup (1:1 honey to warm water)"
       ],
       "recipe": [
-        "Run a lime wedge around the outer rim of your glass and dip in coarse sea salt.",
-        "Combine tequila, Cointreau, and fresh lime juice in a shaker with ice.",
-        "Shake vigorously for 12–15 seconds.",
-        "Strain into the prepared glass — over fresh ice for rocks style, neat for coupe.",
-        "Garnish with a thin lime wheel on the rim."
+        "Make honey syrup by combining equal parts honey and warm water; stir until dissolved, then cool.",
+        "Chill a coupe glass in the freezer.",
+        "Combine gin, fresh lemon juice, and honey syrup in a shaker with ice.",
+        "Shake well and strain into the chilled coupe.",
+        "Garnish with a lemon twist if desired."
       ]
     },
     {
-      "id": "daiquiri",
-      "name": "Daiquiri",
-      "tagline": "Rum's finest moment",
-      "description": "Three ingredients, infinite nuance. A well-made Daiquiri is one of the most elegant drinks a home bartender can master — and one of the hardest to make badly once you know the ratio.",
+      "id": "sidecar",
+      "name": "Sidecar",
+      "tagline": "Cognac's finest moment in a coupe",
+      "description": "Cognac, orange liqueur, and fresh lemon juice shaken to order. The sugar rim is optional — the drink is balanced without it, but some nights call for it.",
+      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Sugar-rimmed coupe",
+      "garnish": "Sugar rim, orange twist",
+      "tastingNotes": "Cognac stone fruit, bright orange liqueur, tart lemon, long finish",
+      "featured": false,
+      "ingredients": [
+        "2 oz Cognac",
+        "¾ oz Orange Liqueur (Cointreau or Grand Marnier)",
+        "¾ oz Fresh Lemon Juice"
+      ],
+      "recipe": [
+        "Optional: rim the coupe with sugar by moistening the edge with lemon and dipping in fine sugar.",
+        "Combine cognac, orange liqueur, and fresh lemon juice in a shaker with ice.",
+        "Shake well until cold.",
+        "Strain into the prepared coupe.",
+        "Garnish with an orange twist."
+      ]
+    },
+    {
+      "id": "paloma",
+      "name": "Paloma",
+      "tagline": "Mexico's favourite cocktail, made properly",
+      "description": "Tequila, fresh lime, and good grapefruit soda. Built over ice and barely stirred. The simplest drink on the menu, and one of the most refreshing things you can pour on a warm evening.",
       "image": "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?auto=format&fit=crop&w=800&q=80",
       "category": "Classic",
-      "glassware": "Chilled coupe",
-      "garnish": "Lime wheel or expressed lime twist",
-      "tastingNotes": "Tart fresh lime, light cane sweetness, delicate rum florals, crisp and clean",
+      "glassware": "Highball glass over ice",
+      "garnish": "Salt rim (optional), grapefruit wedge",
+      "tastingNotes": "Fresh grapefruit, agave, bright lime, effervescent and clean",
       "featured": false,
       "ingredients": [
-        "2 oz White Rum",
-        "0.75 oz Fresh Lime Juice",
-        "0.75 oz Simple Syrup (or 0.5 oz for a drier pour)"
+        "2 oz Tequila (100% agave)",
+        "½ oz Fresh Lime Juice",
+        "Grapefruit Soda to top (Jarritos or Fever-Tree)"
       ],
       "recipe": [
-        "Place a coupe glass in the freezer at least 15 minutes before serving.",
-        "Combine rum, fresh lime juice, and simple syrup in a shaker.",
-        "Add ice and shake hard for 12–14 seconds.",
-        "Double-strain through a fine mesh strainer into the chilled coupe to remove ice chips.",
-        "Garnish with a thin lime wheel floated on the surface."
+        "Optional: rim the glass with salt.",
+        "Fill a highball glass with ice.",
+        "Add tequila and fresh lime juice.",
+        "Top with grapefruit soda.",
+        "Give it a light stir once to combine.",
+        "Garnish with a grapefruit wedge."
       ]
     },
     {
-      "id": "espresso-martini",
-      "name": "Espresso Martini",
-      "tagline": "When the night needs a second wind",
-      "description": "Bold espresso, smooth vodka, and a touch of coffee liqueur — the Espresso Martini is unapologetically indulgent. The frothy crown, when achieved, is its own reward.",
-      "image": "https://images.unsplash.com/photo-1527281400683-1aae777175f8?auto=format&fit=crop&w=800&q=80",
+      "id": "french-75",
+      "name": "French 75",
+      "tagline": "Gin and Champagne, combined without apology",
+      "description": "Shaken gin, fresh lemon, and simple syrup topped with Champagne. Named for a World War I artillery piece. Drinks nothing like one.",
+      "image": "https://images.unsplash.com/photo-1544145945-f90425340c7e?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Champagne flute",
+      "garnish": "Lemon twist",
+      "tastingNotes": "Botanical gin, bright lemon, effervescent, celebratory",
+      "featured": false,
+      "ingredients": [
+        "1 oz Gin",
+        "½ oz Fresh Lemon Juice",
+        "½ oz Simple Syrup",
+        "Champagne or dry Prosecco to top"
+      ],
+      "recipe": [
+        "Combine gin, fresh lemon juice, and simple syrup in a shaker with ice.",
+        "Shake well.",
+        "Strain into a champagne flute.",
+        "Top slowly with cold Champagne.",
+        "Garnish with a lemon twist."
+      ]
+    },
+    {
+      "id": "vieux-carre",
+      "name": "Vieux Carré",
+      "tagline": "New Orleans' other great cocktail",
+      "description": "Rye and Cognac share the glass with sweet vermouth, Bénédictine, and two bitters. Complex, layered, and best sipped slowly. A drink that rewards patience.",
+      "image": "https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Rocks glass over a large cube",
+      "garnish": "Lemon peel",
+      "tastingNotes": "Rye spice, cognac fruit, herbal Bénédictine, layered bitters",
+      "featured": false,
+      "ingredients": [
+        "¾ oz Rye Whiskey",
+        "¾ oz Cognac",
+        "¾ oz Sweet Vermouth",
+        "1 barspoon Bénédictine",
+        "2 dashes Peychaud's Bitters",
+        "2 dashes Angostura Bitters"
+      ],
+      "recipe": [
+        "Combine all ingredients in a mixing glass with ice.",
+        "Stir until well-chilled.",
+        "Strain over a large cube in a rocks glass.",
+        "Express a lemon peel over the glass and add as garnish."
+      ]
+    },
+    {
+      "id": "paper-plane",
+      "name": "Paper Plane",
+      "tagline": "Equal parts everything",
+      "description": "A modern classic from Sam Ross at Milk & Honey. Bourbon, Amaro Nonino, Aperol, and fresh lemon juice in precisely equal measure. Balanced, bittersweet, and impossible to put down.",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80",
       "category": "Contemporary",
-      "glassware": "Chilled coupe or martini glass",
-      "garnish": "Three espresso beans, floated in the center of the foam",
-      "tastingNotes": "Intense roasted coffee, vanilla, light bitterness, creamy persistent foam",
+      "glassware": "Chilled coupe",
+      "garnish": "None",
+      "tastingNotes": "Bitter orange Aperol, amaro herbs, bourbon warmth, bright citrus",
       "featured": false,
       "ingredients": [
-        "1.5 oz Vodka",
-        "0.75 oz Kahlúa or good coffee liqueur",
-        "1 oz Fresh Espresso, cooled slightly",
-        "0.25 oz Simple Syrup (optional)"
+        "¾ oz Bourbon or Rye Whiskey",
+        "¾ oz Amaro Nonino Quintessentia",
+        "¾ oz Aperol",
+        "¾ oz Fresh Lemon Juice"
       ],
       "recipe": [
-        "Pull a fresh espresso shot and let it cool for 60–90 seconds — hot espresso kills the foam.",
-        "Combine vodka, coffee liqueur, espresso, and syrup in a shaker with ice.",
-        "Shake very vigorously for 15 seconds — the hard shake is what creates the foam.",
-        "Double-strain into a chilled coupe glass.",
-        "Float exactly three espresso beans in the center of the foam."
-      ]
-    },
-    {
-      "id": "casa-spritz",
-      "name": "Casa Spritz",
-      "tagline": "Our signature aperitivo",
-      "description": "Our take on the beloved spritz — slightly more complex, a touch more bitter, with a long citrus and herbal finish. Best served at golden hour with nowhere to be.",
-      "image": "https://images.unsplash.com/photo-1570197788417-0e82375c9371?auto=format&fit=crop&w=800&q=80",
-      "category": "House Original",
-      "glassware": "Large wine glass",
-      "garnish": "Orange half-wheel and a fresh rosemary sprig",
-      "tastingNotes": "Effervescent, bitter orange, elderflower, herbal rosemary, light stone fruit",
-      "featured": false,
-      "ingredients": [
-        "3 oz Prosecco",
-        "1.5 oz Aperol",
-        "0.5 oz Elderflower Liqueur",
-        "1 oz Sparkling Water",
-        "Fresh rosemary sprig"
-      ],
-      "recipe": [
-        "Fill a large wine glass generously with fresh ice.",
-        "Add Aperol and elderflower liqueur directly over the ice.",
-        "Pour Prosecco slowly down the side of the glass to preserve the bubbles.",
-        "Top with a splash of sparkling water.",
-        "Gently stir once with a long spoon to barely combine.",
-        "Garnish with a half-wheel of orange and a sprig of fresh rosemary."
+        "Combine all four ingredients in equal measure in a shaker with ice.",
+        "Shake well.",
+        "Strain into a chilled coupe.",
+        "No garnish."
       ]
     }
   ]

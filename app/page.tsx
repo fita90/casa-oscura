@@ -24,13 +24,12 @@ export default function HomePage() {
                 A Bar Built<br />on Obsession
               </h2>
               <p className="text-bar-muted leading-relaxed mb-4">
-                Casa Oscura began as a quiet corner of the living room and grew into something more
-                deliberate. Every bottle was chosen on purpose. Every technique was refined over
-                hundreds of pours.
+                Bar Tovar began with a bottle of gin, a shaker purchased on impulse, and the slow-building
+                suspicion that most bars were not making drinks well enough.
               </p>
               <p className="text-bar-muted leading-relaxed mb-10">
-                This is not a bar of shortcuts. It is a place of measured spirits, proper ice, and the
-                conviction that a well-made drink deserves the same attention as a well-cooked meal.
+                A few years and several hundred drinks later — proper barware, good ice, a shelf of
+                carefully chosen spirits. Eight drinks we are genuinely proud to serve.
               </p>
               <Link
                 href="/about"
@@ -85,7 +84,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-bar-black/75" />
         <div className="relative z-10">
           <p className="text-bar-gold text-xs tracking-[0.4em] uppercase mb-5">
-            Eight drinks, all earned
+            Fourteen drinks, all earned
           </p>
           <h2 className="font-serif text-4xl md:text-5xl text-bar-cream mb-8">
             Explore the Full Menu

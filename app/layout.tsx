@@ -19,8 +19,8 @@ const lato = Lato({
 
 export const metadata: Metadata = {
   title: {
-    default: 'Casa Oscura — Private Home Bar',
-    template: '%s — Casa Oscura',
+    default: 'Bar Tovar — Private Home Bar',
+    template: '%s — Bar Tovar',
   },
   description:
     'A curated collection of classic and original cocktails. Eight drinks, served with intention.',

@@ -14,12 +14,12 @@ const houseRules = [
 ]
 
 const spirits = [
-  { category: 'Gin', name: 'Tanqueray No. Ten', note: 'Citrus-forward, the benchmark for Martinis' },
-  { category: 'Bourbon', name: 'Wild Turkey 101', note: 'High proof, endlessly versatile' },
-  { category: 'Rum', name: 'Plantation 3 Stars', note: 'Light and clean — the Daiquiri standard' },
-  { category: 'Tequila', name: 'Fortaleza Blanco', note: 'Agave-forward, beautifully raw' },
-  { category: 'Vermouth', name: 'Carpano Antica Formula', note: 'The king of sweet vermouths' },
-  { category: 'Bitters', name: 'Angostura & Regans\' No. 6', note: 'The two non-negotiables' },
+  { category: 'Gin', name: "Ford's Gin", note: 'Versatile and approachable — the house gin' },
+  { category: 'Gin (Alt)', name: 'Beefeater', note: 'London Dry benchmark, always on the shelf' },
+  { category: 'Rye', name: 'Rittenhouse Rye', note: 'High proof, essential for stirred drinks' },
+  { category: 'Vodka', name: 'Reyka', note: 'Clean and cold — the only choice for a Vesper' },
+  { category: 'Mezcal', name: '400 Conejos / Alipús', note: 'Espadín or Tobalá for the White Negroni' },
+  { category: 'Vermouth', name: "Dolin Dry & Cinzano Rosso", note: 'The two vermouths always in the fridge' },
 ]
 
 export default function AboutPage() {
@@ -46,24 +46,30 @@ export default function AboutPage() {
         </div>
       </div>
 
-      {/* Origin story */}
+      {/* Origin story — your exact words */}
       <section className="bg-bar-black py-20 lg:py-28 px-6">
         <div className="max-w-3xl mx-auto">
           <h2 className="font-serif text-3xl md:text-4xl text-bar-cream mb-8">How It Started</h2>
           <div className="space-y-5 text-bar-muted leading-relaxed">
             <p>
-              Casa Oscura did not open with fanfare. It began with a bottle of gin, a shaker purchased
-              on impulse, and the creeping suspicion that most bars were not making drinks well enough.
+              Bar Tovar did not open with fanfare. It began with a bottle of gin, a shaker purchased
+              on impulse, and the slow-building suspicion that most bars were not making drinks well
+              enough.
             </p>
             <p>
-              It was the Negroni that changed everything. Three equal parts, stirred until cold, served
-              properly — it was the first cocktail that tasted exactly the way a cocktail should. From
-              there, the bar evolved one bottle at a time, one technique mastered at a time.
+              The Negroni changed that. Three equal parts, stirred until cold, served correctly — the
+              first cocktail that tasted exactly the way a cocktail should. Everything after it was an
+              attempt to understand why, and to apply that standard to everything else.
             </p>
             <p>
-              Now, a few years and several hundred drinks later, Casa Oscura is a small but serious
-              operation. Proper barware. Good ice. A shelf of carefully chosen spirits. And a collection
-              of eight drinks that we are genuinely proud to serve.
+              When the world closed during COVID, the experiment became deliberate. With nowhere else to
+              go, Bar Tovar turned into a destination for a small group of regulars — part bar, part
+              kitchen, part proving ground. Drinks were refined, ideas tested, standards raised.
+            </p>
+            <p>
+              A few years and several hundred drinks later, it is still a small operation. Proper
+              barware. Good ice. A shelf of carefully chosen spirits. Eight drinks we are genuinely
+              proud to serve.
             </p>
           </div>
         </div>
@@ -83,16 +89,18 @@ export default function AboutPage() {
               </h2>
               <div className="space-y-4 text-bar-muted leading-relaxed">
                 <p>
-                  Our style draws heavily from the Italian aperitivo tradition — the golden hour ritual of
-                  bitter, beautiful drinks served before the meal, designed to slow the evening down.
+                  Bar Tovar's style draws heavily from the Italian aperitivo tradition — the golden
+                  hour ritual of bitter, beautiful drinks served before the meal, designed to slow the
+                  evening down.
                 </p>
                 <p>
-                  We admire the restraint of that tradition: a great drink needs three or four ingredients
-                  at most. Complexity should come from quality, not quantity.
+                  We admire the restraint of that tradition: a great drink needs three or four
+                  ingredients at most. Complexity should come from quality, not quantity.
                 </p>
                 <p>
-                  Beyond Italy, we look to the golden age of American cocktail culture — the 1920s and
-                  30s, when bartending was craft and not theater, and the classics were being written.
+                  Beyond Italy, we look to the golden age of American cocktail culture and the
+                  bartenders at Death & Co., Milk & Honey, and the Pegu Club — who proved that the
+                  classics were worth protecting.
                 </p>
               </div>
             </div>
@@ -153,7 +161,7 @@ export default function AboutPage() {
             <span className="text-bar-gold text-xs tracking-[0.35em] uppercase">The Shelf</span>
           </div>
           <h2 className="font-serif text-3xl md:text-4xl text-bar-cream mb-10">
-            Favorite Spirits
+            What We Actually Pour
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
             {spirits.map((spirit, i) => (
