@@ -14,6 +14,10 @@ const nextConfig = {
         protocol: 'https',
         hostname: 'www.foodandwine.com',
       },
+      {
+        protocol: 'https',
+        hostname: 'coolmaterial.com',
+      },
     ],
   },
 }
