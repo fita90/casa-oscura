@@ -47,6 +47,8 @@ export default function Footer() {
               <a
                 key={label}
                 href={href}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-bar-muted text-sm hover:text-bar-cream transition-colors"
               >
                 {label}
