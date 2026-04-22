@@ -44,7 +44,7 @@ export default function HomePage() {
               <div className="aspect-[4/5] overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
-                  src="https://images.unsplash.com/photo-1543109740-4bdb38fda756?auto=format&fit=crop&w=700&q=80"
+                  src="https://images.unsplash.com/photo-1686055603064-cc5d1dd7531d?auto=format&fit=crop&w=700&q=80"
                   alt="The bar"
                   className="w-full h-full object-cover"
                 />
