@@ -167,6 +167,31 @@
       ]
     },
     {
+      "id": "classic-old-fashioned",
+      "name": "Classic Old Fashioned",
+      "tagline": "The drink that lets the spirit speak",
+      "description": "The Death & Co version, as told by Javelle Taft, Head Bartender at Death & Co New York. Originally, sugar was used to mask the impurities of the distillate. Today, it is the drink that lets the spirit speak — and it rewards the best bourbon you can find. Elijah Craig for its full body and notes of chocolate and cherry, or Basil Hayden for something lighter and spiced. A dense 2:1 demerara syrup for silkier texture; two bitters for depth. Stirred, strained, served over one large cube.",
+      "image": "https://images.unsplash.com/photo-1527619348750-7f8a677fcd5e?auto=format&fit=crop&w=800&q=80",
+      "category": "Classic",
+      "glassware": "Rocks glass, one large ice cube",
+      "garnish": "Lemon and orange peel, expressed",
+      "tastingNotes": "Bourbon forward, dark cherry and chocolate, demerara sweetness, layered bitters, long finish",
+      "featured": false,
+      "ingredients": [
+        "2 oz Bourbon (Elijah Craig or Basil Hayden)",
+        "1 tsp Demerara Syrup (2:1)",
+        "2 dashes Angostura Bitters",
+        "1 dash Bitter Truth Aromatic Bitters",
+        "Lemon and orange peel for garnish"
+      ],
+      "recipe": [
+        "Add bourbon, demerara syrup, and both bitters to a mixing glass with ice.",
+        "Stir until well-chilled — about 30 seconds.",
+        "Strain into a rocks glass over one large ice cube.",
+        "Express a lemon peel over the glass, then an orange peel, and add both as garnish."
+      ]
+    },
+    {
       "id": "house-carajillo",
       "name": "House Carajillo",
       "tagline": "Coffee, citrus, and a cloud of smoke",
