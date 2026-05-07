@@ -36,7 +36,7 @@ export default function MenuPage() {
           The Menu
         </h1>
         <p className="text-bar-muted text-sm max-w-sm mx-auto leading-relaxed mt-4">
-          Classics, signatures, and one original. Every recipe earned through repetition.
+          Every drink here earned its place.
         </p>
       </div>
 
